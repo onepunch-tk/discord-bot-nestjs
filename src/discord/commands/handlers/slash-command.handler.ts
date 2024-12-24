@@ -13,7 +13,7 @@ export class SlashCommandHandler extends BaseCommandHandler {
       if (!command) return;
 
       const hasPermission = await this.checkRolePermissions(
-        interaction.member?.roles,
+        interaction.member?.roles as GuildMemberRoleManager,
         command,
       );
 
