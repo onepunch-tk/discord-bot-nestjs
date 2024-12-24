@@ -86,6 +86,7 @@ export class ClanController {
     name: 'admin',
     description: '관리자 전용 명령어',
   })
+  @RequireUser() /* User 맨션이 필요한 경우 */
   async adminCommand(interaction: CommandInteraction) {
     await interaction.reply('관리자 명령어 실행됨');
   }
