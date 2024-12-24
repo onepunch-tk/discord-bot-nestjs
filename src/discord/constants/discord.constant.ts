@@ -1,10 +1,8 @@
 import { Events, GatewayIntentBits } from 'discord.js';
 
 export enum DiscordRole {
-  CLAN_MASTER = '1241333243672789034',
-  CLAN_SERVER_ADMIN = '1241331823653552228',
-  CLAN_ADMIN = '1320986215453036606',
-  CLAN = '1241337173127598120',
+  /* 서버내 역할 ID  */
+  /* 예: ADMIN='12345678' */
 }
 
 export const DISCORD_CONSTANTS = {
