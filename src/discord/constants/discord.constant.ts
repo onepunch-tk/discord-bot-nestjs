@@ -27,6 +27,8 @@ export const DISCORD_CONSTANTS = {
   },
   ROLE_GROUPS: {
     ALL: [],
-    ADMIN: [],
+    ADMIN: [
+    /* 예: DiscordRole.ADMIN */
+],
   },
 } as const;
